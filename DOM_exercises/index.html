@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi màu nền</title>
+    <style>
+        body {
+            background-color: #d4c5ba; /* màu giống hình */
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 300px;
+        }
+        input {
+            padding: 12px 20px;
+            width: 250px;
+            border: 1px solid #999;
+            border-radius: 4px 0 0 4px;
+            font-size: 18px;
+        }
+        button {
+            padding: 12px 25px;
+            background-color: #1f3247;
+            color: white;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <input id="colorInput" type="text" placeholder="Nhập màu">
+        <button onclick="changeColor()">Áp dụng</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
